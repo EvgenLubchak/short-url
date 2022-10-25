@@ -13,9 +13,9 @@ class URLRepository
      * Create new Url entity
      *
      * @param array $data
-     * @return mixed
+     * @return Url
      */
-    public function create(array $data)
+    public function create(array $data): Url
     {
         return Url::create($data);
     }
@@ -25,7 +25,8 @@ class URLRepository
      *
      * @return string
      */
-    function uniqueTokenStr() {
+    function uniqueTokenStr(): string
+    {
         do {
             $token = Str::random(8);
         } while (Url::whereToken($token)->first() instanceof Url);
@@ -37,7 +38,7 @@ class URLRepository
      *
      * @param Url $url
      */
-    public function decreaseTransitionLimit(Url $url)
+    public function decreaseTransitionLimit(Url $url): void
     {
         if( $url->transition_limit == 1 ) {
             $url->transition_limit = -999;
