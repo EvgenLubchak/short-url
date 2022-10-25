@@ -19,9 +19,15 @@
         <footer class="my-5 pt-5 text-muted text-center text-small">
             <p class="mb-1">&copy; 1989–2022 John Company</p>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Privacy</a></li>
-                <li class="list-inline-item"><a href="#">Terms</a></li>
-                <li class="list-inline-item"><a href="#">Support</a></li>
+                <li class="list-inline-item"><a target="_blank"
+                                                href="https://www.youtube.com/watch?v=y48ZwmVF-2M&list=RDy48ZwmVF-2M&start_radio=1">Privacy</a>
+                </li>
+                <li class="list-inline-item"><a target="_blank"
+                                                href="https://www.youtube.com/watch?v=i2JF4EW_X68&list=RDy48ZwmVF-2M&index=3">Terms</a>
+                </li>
+                <li class="list-inline-item"><a target="_blank"
+                                                href="https://www.youtube.com/watch?v=T9hhDEfV4uo&list=RDy48ZwmVF-2M&index=6">Support</a>
+                </li>
             </ul>
         </footer>
     </div>
