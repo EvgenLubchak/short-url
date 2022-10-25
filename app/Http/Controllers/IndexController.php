@@ -8,7 +8,6 @@ use Illuminate\View\View;
 
 class IndexController extends Controller
 {
-
     /**
      * Index page
      *
