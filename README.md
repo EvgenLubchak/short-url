@@ -42,7 +42,6 @@ https://laravel.com/docs/9.x/sail#executing-sail-commands
 
 ### Don't forget to create .env file
 
-
 ### Don't forget to run composer commands and migrations ets...
 ```
 ./vendor/bin/sail composer install
